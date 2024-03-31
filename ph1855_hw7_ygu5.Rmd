@@ -1,0 +1,24 @@
+---
+title: "ph1855_hw7_ygu5"
+author: "Yue Gu"
+date: "2024-03-31"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(NSM3)
+```
+
+
+# Hollander et al. Nonparametric Statistical Methods 2014
+# P301 Q2
+```{r}
+cFrd(0.5, 4, 14, method = "Monte Carlo")
+```
+
+# P321 Q30
+```{r}
+pRangeNor(3.61, 2)
+```
